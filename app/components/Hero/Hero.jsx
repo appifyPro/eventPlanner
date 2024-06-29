@@ -6,7 +6,7 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import Select from 'react-select';
 
-function Header() {
+function Hero() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -138,4 +138,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Hero;

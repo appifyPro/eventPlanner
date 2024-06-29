@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
 import Line1 from "./components/Line1/Line1";
 import VendorCatagory from "./VendorCatagory/VendorCatagory";
 import Popular from "./components/Popular/Popular";
@@ -14,7 +14,7 @@ function page() {
       <Navbar />
       <div className="background-div shadow-lg " data-aos="fade-up">
         
-        <Header />
+        <Hero />
       </div>
       <Line1 />
       <div>
