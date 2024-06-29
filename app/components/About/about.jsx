@@ -4,52 +4,29 @@ import Img from "@/public/assets/Img.svg";
 
 export default function About() {
   return (
-    <div className="bg-[#f5f2f2] px-4 sm:px-6 flex justify-center mt-8">
-      <div className="sm:px-[60px] md:px-[40px] px-[20px] py-4 max-w-6xl">
-        <h1 className="font-bold text-[25px] font-poppins">About Us</h1>
-        <div className="flex flex-col sm:flex-row items-center justify-center mt-4">
-          <div className="mb-4 sm:mb-0 sm:mr-8">
-            <p className="text-gray-500 font-[500] max-w-[800px] text-center sm:text-left font-serif">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              accumsan risus eu nisl luctus, eget malesuada enim semper. Donec
-              id erat eget mi blandit auctor. Mauris commodo placerat enim, sit
-              amet venenatis nunc pellentesque vel. Fusce non lectus id lectus
-              placerat auctor. Integer mattis felis nec dolor mollis, in feugiat
-              metus ullamcorper. Fusce et dictum felis, sit amet venenatis
-              sapien. Vestibulum ante ipsum primis in faucibus orci luctus et
-              ultrices posuere cubilia Curae; Cras rutrum nibh vel risus dictum,
-              in congue justo scelerisque. Pellentesque habitant morbi tristique
-              senectus et netus et malesuada fames ac turpis egestas. Nam in
-              vestibulum ex, in feugiat elit.
-            </p>
-            <br />
-            <p className="hidden sm:block text-gray-500 font-[500] max-w-[800px] text-center sm:text-left mb-5 font-serif">
-              Vivamus consequat nulla a consequat efficitur. Sed molestie enim
-              id sapien sagittis, at elementum turpis ultrices. Morbi aliquam,
-              nunc at tempus placerat, libero ligula posuere mi, ut tristique
-              justo turpis vitae erat. Proin venenatis, libero ac vestibulum
-              ultricies, nunc nulla consequat eros, id pharetra lorem turpis sed
-              est. Suspendisse potenti. Sed mattis lorem vel nulla varius, sed
-              laoreet magna faucibus. Nam pharetra auctor libero sit amet
-              pellentesque. Vestibulum ante ipsum primis in faucibus orci luctus
-              et ultrices posuere cubilia Curae; Mauris ac nunc et ante viverra
-              sagittis. Aenean id dui velit. Proin id pharetra neque.
-              Pellentesque nec leo eu magna cursus lacinia. Cras vel pharetra
-              neque, ac maximus nisi. Proin euismod, dui at accumsan vestibulum,
-              orci tellus efficitur tortor, non ultricies elit libero vitae
-              justo.
-            </p>
-          </div>
-          <div className="w-full sm:w-auto" data-aos="fade-left">
-            <Image
-              src={"/assets/Table.jpg"}
-              alt="Img"
-              width={700}
-              height={400}
-              className="w-[700px] h-[500px] "
-            />
-          </div>
-        </div>
+    <div className="bg-[#F4ECE1] w-full p-8 sm:p-16 md:p-28 flex flex-col md:flex-row gap-8 md:gap-28 justify-center mt-8">
+      <div className="w-full md:w-auto px-4 sm:px-8" data-aos="fade-left">
+        <Image
+          src={"/assets/about.jpeg"}
+          alt="Img"
+          width={500}
+          height={600}
+          className="w-full md:w-[500px] h-auto md:h-[530px]"
+        />
+      </div>
+      <div className="flex flex-col justify-center space-y-6 px-4 sm:px-0">
+        <h1 className="font-serif text-3xl md:text-[35px] text-center md:text-left">About Us</h1>
+        <p className="text-gray-500 font-sans tracking-wide not-italic leading-7 md:leading-9 text-lg md:text-xl max-w-full md:max-w-[800px] text-center md:text-left">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          accumsan risus eu nisl luctus, eget malesuada enim semper. Donec
+          id erat eget mi blandit auctor. Mauris commodo placerat enim, sit
+          amet venenatis nunc pellentesque vel. Fusce non lectus id lectus
+          placerat auctor. Integer mattis felis nec dolor mollis, in feugiat
+          metus ullamcorper. Fusce et dictum felis, sit amet venenatis
+          sapien. Vestibulum ante ipsum primis in faucibus orci luctus et
+          ultrices posuere cubilia Curae; Cras rutrum nibh vel risus dictum,
+          in congue justo scelerisque.
+        </p>
       </div>
     </div>
   );
